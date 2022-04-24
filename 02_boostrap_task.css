@@ -1,0 +1,345 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.container-bg {
+    background-color: rgb(235, 235, 235);
+}
+
+.container2-bg {
+    height: 133vh;
+    background-color: rgb(44, 45, 48);
+}
+
+.img-back {
+    background-image: url("./project 3 asset/background3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+}
+
+.img-inner-back {
+    background-color: black;
+    opacity: 0.7;
+    height: 450px;
+    width: 100%;
+}
+
+.img-media {
+    position: relative;
+    margin-top: 16%;
+    border-radius: 0.5rem;
+}
+
+.container3-text {
+    background-color: white;
+    height: 86vh;
+    width: 62vw;
+    padding-left: 12%;
+    border-radius: 0.5rem;
+    padding-top: 8%;
+}
+
+.img2 {
+    height: 470px;
+    width: 100vh;
+    border-radius: 0.5rem;
+}
+
+.img3-container {
+    background-color: white;
+    height: 428px;
+    width: 86.7%;
+}
+
+.img3 {
+    height: 330px;
+    width: 70vh;
+    border-radius: 0.5rem;
+}
+
+.img4 {
+    height: 410px;
+    width: 65vh;
+    border-radius: 0.5rem;
+}
+
+.img5 {
+    height: 493px;
+    width: 75%;
+}
+
+.img6 {
+    height: 450px;
+    width: 55%;
+    border-radius: 0.5rem;
+}
+
+.img7 {
+    height: 459px;
+    width: 43%;
+    border-radius: 0.5rem;
+}
+
+.img8 {
+    height: 400px;
+    position: relative;
+    bottom: 28%;
+    border-radius: 0.5rem;
+    width: 110%;
+    right: 35%;
+}
+
+.logo1 {
+    border: 1px solid white;
+    font-size: x-large;
+    background-color: white;
+    padding: 2vh 3vh;
+    border-radius: 0.7rem;
+}
+
+.img10-text {
+    background-color: rgb(143, 216, 209);
+    width: 60%;
+    height: 480px;
+    border-radius: 0.5rem;
+    margin-top: 3.7%;
+}
+
+.black-bg {
+    background-color: white;
+    /*  height: 270px; 
+    width: 100%; */
+}
+
+.c-1 {
+    background-image: url("./project 3 asset/features3.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.c-2 {
+    background-image: url("./project 3 asset/features1.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.c-3 {
+    background-image: url("./project 3 asset/background3.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo2 {
+    border: 1px solid rgb(73, 73, 73);
+    color: gray;
+    font-size: large;
+    padding: 0.8vh 1.4vh;
+    border-radius: 0.7rem;
+}
+
+.first-c {
+    background-color: rgb(56, 53, 53);
+    color: white;
+    border: 1px solid gray;
+    width: 34%;
+}
+
+.second-c {
+    background-color: rgb(56, 53, 53);
+    color: white;
+
+    width: 34%;
+}
+
+.third-c {
+    background-color: rgb(56, 53, 53);
+    color: white;
+    border: 1px solid gray;
+    width: 34%;
+}
+
+.first-c1 {
+    background-color: rgb(56, 53, 53);
+    color: white;
+    width: 34%;
+}
+
+.second-c2 {
+    background-color: rgb(56, 53, 53);
+    color: white;
+    width: 34%;
+}
+
+.third-c3 {
+    background-color: rgb(56, 53, 53);
+    color: white;
+    width: 34%;
+}
+
+.img11 {
+    height: 430px;
+    width: 55%;
+}
+
+.form1 {
+    border: 1px solid white;
+    border-radius: 0.4rem;
+    display: inline-block;
+    width: 32.2%;
+}
+
+.form-input {
+    width: 70%;
+    padding: 1.5%;
+    background-color: rgb(87, 80, 80);
+    border: 1px solid rgb(87, 80, 80);
+    border-radius: 0.3rem;
+    color: white;
+}
+
+.img12 {
+    height: 442px;
+    width: 110%;
+}
+
+.img13 {
+    height: 570px;
+    width: 45%;
+    border-radius: 0.5rem;
+}
+
+.alert-6 {
+    padding: 0px 30vh;
+}
+
+@media(max-width:991px) {
+    .img-media {
+        height: 370px;
+        width: 100%;
+    }
+
+    .container3-text {
+        width: 100%;
+    }
+
+    .img5 {
+        width: 100%;
+    }
+
+    .img6 {
+        width: 100%;
+    }
+
+    .img7 {
+        width: 100%;
+    }
+
+    .img10 {
+        width: 100%;
+    }
+
+    .img10-text {
+        width: 100%;
+    }
+
+    .first-c {
+        width: 100%;
+    }
+
+    .second-c {
+        width: 100%;
+    }
+
+    .third-c {
+        width: 100%;
+    }
+
+    .first-c1 {
+        width: 100%;
+    }
+
+    .second-c2 {
+        width: 100%;
+    }
+
+    .third-c3 {
+        width: 100%;
+    }
+
+    .img11 {
+        width: 100%;
+    }
+
+    .form1 {
+        display: block;
+        width: 100%;
+        margin: 2%;
+    }
+
+    .img13 {
+        width: 100%;
+    }
+
+
+}
+
+@media(max-width:991px) {
+    .img3-container {
+        background-color: white;
+        height: 720px;
+        width: 86.7%;
+    }
+
+    .img3 {
+        height: 330px;
+        width: 84.5vh;
+        border-radius: 0.5rem;
+    }
+
+    .img4 {
+        width: 100vh;
+    }
+
+}
+
+@media(max-width:767px) {
+    .img3 {
+        width: 78%;
+    }
+
+    .img8 {
+        width: 148%;
+        height: 350px;
+        margin-top: 53%;
+    }
+
+    .img10-text {
+        width: 100%;
+    }
+
+    .form-input {
+        width: 100%;
+    }
+
+    .form-b {
+        margin-top: 5%;
+        margin-left: 28%;
+    }
+
+    .alert-6 {
+        padding: 0px 0vh;
+    }
+
+}
